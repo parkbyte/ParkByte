@@ -2,7 +2,7 @@
 TEMPLATE = app
 TARGET = ParkByte-qt
 VERSION = 1.0.0.0
-INCLUDEPATH += src src/json src/qt src/tor
+INCLUDEPATH += src src/json src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
 CONFIG += no_include_pwd
 CONFIG += thread
@@ -248,6 +248,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/qt/rpcconsole.h \
     src/version.h \
     src/netbase.h \
+	src/qt/blockbrowser.h \
     src/clientversion.h
 
 SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
@@ -318,6 +319,7 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/scrypt-x86_64.S \
     src/scrypt.cpp \
     src/pbkdf2.cpp \
+	src/qt/blockbrowser.cpp \
     src/zerocoin/Accumulator.cpp \
     src/zerocoin/AccumulatorProofOfKnowledge.cpp \
     src/zerocoin/Coin.cpp \
@@ -341,6 +343,7 @@ FORMS += \
     src/qt/forms/editaddressdialog.ui \
     src/qt/forms/transactiondescdialog.ui \
     src/qt/forms/overviewpage.ui \
+	src/qt/forms/blockbrowser.ui \
     src/qt/forms/sendcoinsentry.ui \
     src/qt/forms/askpassphrasedialog.ui \
     src/qt/forms/rpcconsole.ui \
