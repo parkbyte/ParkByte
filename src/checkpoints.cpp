@@ -24,8 +24,28 @@ namespace Checkpoints
     //
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0,      hashGenesisBlock )
-		;
+        (       0, hashGenesisBlock )
+        (    5000, uint256("0x5112b6d87e818e99cddbc23391a65412f3885f8c3498fb3beeeb91fd5b31e7ac"))
+        (   10000, uint256("0x0000000000001cd3b4f4ba62eb0fc39a5fa8b9e02405ee213fc963e744a04237"))
+        (   50000, uint256("0x00000000000001d2f3329e3faa8ed2ceb8bc293b750228b1b3e23c016548cf35"))
+        (  100000, uint256("0x5c54c919158b99193f5d24344772363567787321fe8cdabf1637bc56fc53bb3a"))
+        (  150000, uint256("0x1426dc2ff8a01e2f3d9a8a3c151a7e8757fdae03a54d50f1b20446c5402764de"))
+        (  200000, uint256("0xeb853c0c81866c41ba051b0648f233fc01a7b8af3e5b738ccfc9fef49ccbb0dc"))
+        (  250000, uint256("0x89cbfb3c43b54f04eddd2cafefbbfced2e1a2799837205742f89f7266df239d9"))
+        (  300000, uint256("0x15bc49fb520cfe5d80a2a3e08f13658862ba1641b27c521159e64b77dea949ed"))
+        (  500000, uint256("0x9adf6248af863347a14adeaba5744f5ba0dd241a4a764d79b58ecfaba61f05c1"))
+        (  600000, uint256("0x4184ee490b978974ac2a044bb432e1bbf1a8b5fa54226920699211004390c477"))
+        (  700000, uint256("0x86bf8dc5a0939aec76b592810488e24c24d7efa814706ced456d6c579a3a0f27"))
+        (  800000, uint256("0xff13a48d8a03241a1b6494a214f70b80c332e594597534ca5e251e194c312296"))
+        (  900000, uint256("0x7f602360d4ca1f713b9d97b81a2b7e53da23dea0bdc55ce5b98eccfb69b0fee8"))
+        ( 1000000, uint256("0x93efa82e003aabdaaf4e60bedc7448dd1fa726819d68c8e5a255c9ff80116e46"))
+        ( 1100000, uint256("0xf596a31e5a8c28575ba931b5befb8af59853e21fa64c0ddc5866f5976e8b2195"))
+        ( 1200000, uint256("0x108f7dad097448845c3cd8f17bde75a19936076e8a83207b8539b943d9379300"))
+        ( 1300000, uint256("0xebf831614b2e4ca7f3a505dcdfbb35315d44a0e7f553b3b1a444a397f458f0ae"))
+        ( 1400000, uint256("0xa89ba802d1692b683d24f1ddda76dd6787adb9ed27403f22112e2fff62db33e6"))
+        ( 1500000, uint256("0x2fc2603e7e6068254a153843f4a61741e22b192a42018eed004bab39a612bbba"))
+        ( 1600000, uint256("0x32b982769fa19e48b3d5b61ffe95feb36133ddd6eaa980eb9d32172c4d6b8fe9"))
+        ;
 
     // TestNet has no checkpoints
     static MapCheckpoints mapCheckpointsTestnet =
