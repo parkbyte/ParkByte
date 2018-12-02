@@ -1222,19 +1222,21 @@ void MapPort()
 
 
 
-
-
-
-
-
 // DNS seeds
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"seednode1", "198.50.147.234"},
-	{"seednode2", "151.80.232.34"},
-	{"seednode3", "37.187.139.3"},
+    {"seednode1", "insight.parkbyte.com"},
+    {"seednode2", "parkbyte.com"},
+    {"seednode3", "139.162.198.229"},
+    {"seednode4", "139.162.240.6"},
+    {"seednode5", "79.137.112.208"},
+    {"seednode6", "79.137.112.209"},
+    {"seednode7", "79.137.112.210"},
+    {"seednode8", "79.137.112.211"},
+    {"seednode9", "79.137.112.212"},
+    {"seednode10", "79.137.112.213"}
 };
 
 void ThreadDNSAddressSeed(void* parg)
